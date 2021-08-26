@@ -1,6 +1,9 @@
 <!DOCTYPE html PUBLIC>
 <?php
 
+	//Gain DB Conn
+	require_once 'scripts/dbc.php';
+
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
      <head>

@@ -139,6 +139,9 @@ table {
 	width: 100%;
 	padding: 12px 20px;
 }
+td {
+	text-align: center;
+}
 td.cell-heading {
 	font-weight: bolder;
 	text-align: right;

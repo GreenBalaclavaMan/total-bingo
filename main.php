@@ -4,6 +4,7 @@
 
 	//Header
 	require 'header.php';
+
 ?>
 <html>
 	<div class="div-content">
@@ -15,6 +16,7 @@
 		</p>
 		<ul>
 			<li><a href="index.php">index.php</a></li>
+			<li><a href="viewproducts.php">viewproducts.php</a></li>
 		</ul>
 	</div>
 </html>
