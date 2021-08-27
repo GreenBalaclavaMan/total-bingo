@@ -17,6 +17,7 @@
 		<ul>
 			<li><a href="index.php">index.php</a></li>
 			<li><a href="viewproducts.php">viewproducts.php</a></li>
+			<li><a href="checkout.php">checkout.php</a></li>
 		</ul>
 	</div>
 </html>

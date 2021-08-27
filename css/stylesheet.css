@@ -137,7 +137,7 @@ table {
 	font-size: 18px;
 	font-family: 'Roboto Mono', monospace;
 	width: 100%;
-	padding: 12px 20px;
+	padding: 0;
 }
 td {
 	text-align: center;
@@ -183,6 +183,18 @@ form {
 	font-size: 18px;
 	font-family: 'Roboto Mono', monospace;
 }
+button {
+	background-color: #000000;
+	border-style: none;
+	outline: 2px solid #847D71;
+	color: #dddddd;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Roboto Mono', monospace;
+	padding: 12px 20px;
+	display: inline-block;
+	box-sizing: border-box;
+}
 input {
 	background-color: #000000;
 	border-style: none;
@@ -210,13 +222,13 @@ input[type=submit] {
 	display: inline-block;
 	box-sizing: border-box;
 }
-input:hover {
+input:hover, button:hover {
 	outline: 4px solid #2274A5;
 }
-input:focus {
+input:focus, button:focus {
 	outline: 4px solid #2274A5;
 }
-input:active {
+input:active, button:active {
 	outline: 4px solid #ED474A;
 }
 input[type="radio"] {
@@ -251,7 +263,19 @@ textarea:focus {
 	color: #ED474A;
 }
 
-/*--------------------IMAGES N SHIT--------------------*/
+input {
+  text-align:center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+/*--------------------IMAGES--------------------*/
 img.header-logo {
 	display: block;
 	margin-left: auto;
