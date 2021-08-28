@@ -19,6 +19,11 @@
 	}
 
 	//Calculate total
+	if(ISSET($_POST['button_submit'])) {
+		if(ISSET($_POST['number_field'])) {
+			$checkout_total = array_sum($_POST['number_field']);
+		}
+	}
 
 ?>
 <html>
@@ -41,7 +46,7 @@
 			<table>
 				<tr>
 					<th>
-						Name
+						Product
 					</th>
 					<th>
 						Quantity
@@ -57,14 +62,11 @@
 					</td>
 					<td>
 						<link media="all" rel="stylesheet" href="./style.css">
-
 						<div>
 							<button type="button" onclick="this.parentNode.querySelector('[type=number]').stepDown();">
 							-
 							</button>
-
-							<input type="number" name="number" min="0" max="100" value="0">
-
+							<input size="2" type="number" name="<?php echo('number_field[' . strval($i) . ']'); ?>" min="0" max="100" value="0">
 							<button type="button" onclick="this.parentNode.querySelector('[type=number]').stepUp();">
 							+
 							</button>

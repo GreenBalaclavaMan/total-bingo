@@ -3,8 +3,6 @@ body {
 	background-size: 50%;
 	background-color: #040404;
 	font-size: 18px;
-
-	/*Switching...to...manual...mode*/
 	margin: 0;
 	padding: 0;
 	height: 100vh;
@@ -203,6 +201,7 @@ input {
 	font-size: 18px;
 	font-weight: bold;
 	font-family: 'Roboto Mono', monospace;
+	text-align:center;
 }
 label {
 	margin: 12px 0;
@@ -263,10 +262,6 @@ textarea:focus {
 	color: #ED474A;
 }
 
-input {
-  text-align:center;
-}
-
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -275,6 +270,17 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+/*Disable increment buttons on number fields*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
 /*--------------------IMAGES--------------------*/
 img.header-logo {
 	display: block;
