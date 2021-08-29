@@ -32,7 +32,7 @@
 				<!--Logo-->
 				<div class="header-logo">
 	                    <a href="index.php">
-	                         <img class="header-logo" src="images/logo.png" alt="Knot Logo">
+	                         Goto Main Menu <!--<img class="header-logo" src="images/logo.png" alt="Knot Logo">-->
 	                    </a>
 				</div>
 			</div>

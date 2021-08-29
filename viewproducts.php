@@ -34,9 +34,6 @@
 		<table>
 			<tr>
 				<th>
-					ID
-				</th>
-				<th>
 					Name
 				</th>
 				<th>
@@ -51,9 +48,6 @@
 		for($i=0; $i < sizeof($array_products); $i ++) {
 ?>
 			<tr>
-				<td>
-					<?php echo($array_products[$i][0]); ?>
-				</td>
 				<td>
 					<?php echo($array_products[$i][1]); ?>
 				</td>
