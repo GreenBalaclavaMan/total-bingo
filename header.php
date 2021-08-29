@@ -31,9 +31,14 @@
                <div class="div-header">
 				<!--Logo-->
 				<div class="header-logo">
-	                    <a href="index.php">
-	                         <img class="header-logo" src="images/logo.png" alt="Knot Logo">
-	                    </a>
+					<table>
+						<tr>
+							<td>
+								<button onClick="location.href='index.php'">Goto Home Page</button>
+								<!--<img class="header-logo" src="images/logo.png" alt="Website Logo">-->
+							</td>
+						</tr>
+					</table>
 				</div>
 			</div>
 

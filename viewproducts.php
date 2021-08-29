@@ -23,8 +23,11 @@
 		</h1>
 
 		<p>
-			Below is a list of all products, and their associated data.
+			Here is a list of all products, and their associated sales statistics.
 		</p>
+	</div>
+
+	<div class="div-content">
 
 <?php
 	//Check if array_products exists
@@ -33,9 +36,6 @@
 		<!--Product data-->
 		<table>
 			<tr>
-				<th>
-					ID
-				</th>
 				<th>
 					Name
 				</th>
@@ -51,9 +51,6 @@
 		for($i=0; $i < sizeof($array_products); $i ++) {
 ?>
 			<tr>
-				<td>
-					<?php echo($array_products[$i][0]); ?>
-				</td>
 				<td>
 					<?php echo($array_products[$i][1]); ?>
 				</td>

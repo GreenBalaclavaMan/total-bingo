@@ -1,7 +1,7 @@
 /*total-bingo css*/
 body {
 	background-size: 50%;
-	background-color: #040404;
+	background-color: #d8d8d8;
 	font-size: 18px;
 	margin: 0;
 	padding: 0;
@@ -11,7 +11,7 @@ body {
 
 /*--------------------DIV containers--------------------*/
 div.div-content {
-	background-color: #141414;
+	background-color: #f7f7f7;
 
 	position: relative;
 	left: 0;
@@ -98,40 +98,40 @@ div.header-logo {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 100px;
+	width: 200px;
 }
 
 /*--------------------TEXT--------------------*/
 p {
-	color: #dddddd;
+	color: #000000;
 	font-size: 18px;
 	font-family: 'Roboto Mono', monospace;
 }
 h1 {
-	color: #dddddd;
+	color: #000000;
 	font-size: 25px;
 	font-weight: bold;
 	font-family: 'Roboto Mono', monospace;
 }
 h2 {
-	color: #dddddd;
+	color: #000000;
 	font-weight: bold;
 	font-family: 'Roboto Mono', monospace;
 }
 
 /*--------------------LISTS/TABLES--------------------*/
 ol {
-	color: #dddddd;
+	color: #000000;
 	font-size: 18px;
 	font-family: 'Roboto Mono', monospace;
 }
 ul {
-	color: #dddddd;
+	color: #000000;
 	font-size: 18px;
 	font-family: 'Roboto Mono', monospace;
 }
 table {
-	color: #dddddd;
+	color: #000000;
 	font-size: 18px;
 	font-family: 'Roboto Mono', monospace;
 	width: 100%;
@@ -149,7 +149,7 @@ td.header-cell {
 }
 /*--------------------LINKS/URLs--------------------*/
 a {
-	color: #dddddd;
+	color: #002afc;
 	font-size: 18px;
 	font-family: 'Roboto Mono', monospace;
 	outline: none;
@@ -160,7 +160,7 @@ a:link {
 	color: #4ebcfc;
 }
 a:visited {
-	color: #4ebcfc;
+	color: #002afc;
 }
 a:focus {
 	color: #ED474A;
@@ -180,24 +180,29 @@ form {
 	color: #dddddd;
 	font-size: 18px;
 	font-family: 'Roboto Mono', monospace;
+	margin: 0;
 }
 button {
-	background-color: #000000;
+	background-color: #e8e8e8;
 	border-style: none;
-	outline: 2px solid #847D71;
-	color: #dddddd;
+	outline: 1px solid #847D71;
+	color: #000000;
 	font-size: 18px;
 	font-weight: bold;
 	font-family: 'Roboto Mono', monospace;
 	padding: 12px 20px;
 	display: inline-block;
 	box-sizing: border-box;
+	padding: 5px 10px;
+	margin: 8px 0px;
+	display: inline-block;
+	box-sizing: border-box;
 }
 input {
-	background-color: #000000;
+	background-color: #e8e8e8;
 	border-style: none;
-	outline: 2px solid #847D71;
-	color: #dddddd;
+	outline: 1px solid #847D71;
+	color: #000000;
 	font-size: 18px;
 	font-weight: bold;
 	font-family: 'Roboto Mono', monospace;
@@ -217,7 +222,7 @@ input[type=text], input[type=password], select {
 }
 input[type=submit] {
 	padding: 12px 20px;
-	margin: 24px 0;
+	margin: 8px 0px;
 	display: inline-block;
 	box-sizing: border-box;
 }
@@ -286,5 +291,5 @@ img.header-logo {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 100px;
+	width: 200px;
 }
