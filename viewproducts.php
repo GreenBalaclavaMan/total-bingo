@@ -25,6 +25,9 @@
 		<p>
 			Here is a list of all products, and their associated sales statistics.
 		</p>
+	</div>
+
+	<div class="div-content">
 
 <?php
 	//Check if array_products exists

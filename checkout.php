@@ -55,12 +55,32 @@
 	if(ISSET($_POST['button_confirmorder'])) {
 ?>
 	<div class="div-content">
-		<h1>
-			Order Confirmed
-		</h1>
-
-		<!--Return to the previous screen-->
-		<button onClick="window.location.href=window.location.href">Continue</button>
+		<table>
+			<tr>
+				<td>
+					<h1>
+						Order Confirmed
+					</h1>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p>
+						Sales data from the order has successfully been saved to the database.
+					</p>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="div-content">
+		<table>
+			<tr>
+				<td>
+					<!--Return to the previous screen-->
+					<button onClick="window.location.href=window.location.href">Continue</button>
+				</td>
+			</tr>
+		</table>
 	</div>
 <?php
 	}else{
@@ -96,14 +116,25 @@
 ?>
 				</table>
 
+			</div>
 
-				<!--Return to the previous screen-->
-				<button onClick="window.location.href=window.location.href">Go Back</button>
-
-				<!--Submit order to database-->
+			<div class="div-content">
 				<form method="POST" action="checkout.php">
-					<input type="hidden" name="hidden_numberfields" value="<?php echo(implode(',', $array_numberfields)); ?>">
-					<input type="submit" name="button_confirmorder" value="Confirm Order">
+				<table>
+					<tr>
+						<td>
+							<!--Return to the previous screen-->
+							<button onClick="window.location.href=window.location.href">Go Back</button>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<!--Submit order to database-->
+								<input type="hidden" name="hidden_numberfields" value="<?php echo(implode(',', $array_numberfields)); ?>">
+								<input type="submit" name="button_confirmorder" value="Confirm Order">
+						</td>
+					</tr>
+				</table>
 				</form>
 			</div>
 <?php
@@ -118,6 +149,9 @@
 				<p>
 					Calculate the total cost of an order using the form below.
 				</p>
+			</div>
+
+			<div class="div-content">
 
 <?php
 				//Check if array_products exists
