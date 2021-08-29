@@ -15,9 +15,8 @@
 			Below is a list of hyperlinks for navigating the website.
 		</p>
 		<ul>
-			<li><a href="index.php">index.php</a></li>
-			<li><a href="viewproducts.php">viewproducts.php</a></li>
-			<li><a href="checkout.php">checkout.php</a></li>
+			<li><a href="viewproducts.php">View Product Data</a></li>
+			<li><a href="checkout.php">Checkout Tool</a></li>
 		</ul>
 	</div>
 </html>

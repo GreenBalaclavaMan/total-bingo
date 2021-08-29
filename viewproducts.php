@@ -23,7 +23,7 @@
 		</h1>
 
 		<p>
-			Below is a list of all products, and their associated data.
+			Here is a list of all products, and their associated sales statistics.
 		</p>
 
 <?php
